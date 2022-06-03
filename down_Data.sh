@@ -7,4 +7,4 @@ wget $1 -O bike_rental.zip
 unzip -c bike_rental.zip > bike_rental.csv
 
 # Pujem el csv a l'hdfs
-hdfs dfs -put bike_rental.csv /user/cloudera/WorkspaceOoziePractica
+hdfs dfs -put bike_rental.csv /user/cloudera/WorkspaceOozieRecuperacio
